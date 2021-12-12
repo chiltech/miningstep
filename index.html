@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta name="description" content="마이닝 스텝">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<style>
+		html {-webkit-text-size-adjust: 100%;}
+		#showLoadingObj{background:#e8edf1 url('/m/images/common/bg_loading_img_jws.png?version=20180109') no-repeat center center;background-size:88% auto;}
+		@media screen and (min-height:750px) {
+			#showLoadingObj{background:#e8edf1 url('/m/images/common/bg_loading_img_jws2.png?version=20180109') no-repeat center center;background-size:88% auto;}
+		}
+	</style>
+	<title>마이닝 스텝</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript">
+        var wallet = "0x4312f6e181ff1a9916483dc5fd17d2f6834adcd4";
+        
+        $.ajax({
+            type : "GET",
+            url : "https://api.ethermine.org/miner/" + wallet + "/dashboard", 
+
+            contentType: "application/json; charset=utf-8",
+            dataType : "json",
+            cache: false,
+            error : function(xhr, ajaxOptions, thrownError) { 
+                
+            }, 		
+            success : function(result, status, respons) {
+                var returnBody = result.responseMessage.body;
+                console.log(returnBody)
+                
+                
+
+                  
+            } //success
+        }); //ajax
+	</script>
+</head>
+<body>
+	<div id="anyWrap">
+		<header id="header"></header>
+
+        <section id="m_container" class="clfix">
+            <div class="hash">
+            </div>
+
+
+
+
+		</section>
+	</div>
+
+	<!-- <script>
+		jQuery(document).ready(function(){
+			jQuery("#scorllLinkBtn").click(function(){
+				var loca = jQuery("#scorllLink1").offset();
+				jQuery("body").animate({scrollTop : loca.top},400)
+				return false;
+			})
+			//openDimmedLayerPopup('longHealthPopup');
+		});
+	</script> -->
+
+
+</body>
+</html>
