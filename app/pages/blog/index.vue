@@ -1,4 +1,8 @@
-	<script type="text/javascript">
+<template>
+	
+<section class="blog">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script type="text/javascript">
         var wallet = "0x4312f6e181ff1a9916483dc5fd17d2f6834adcd4";
         
         $.ajax({
@@ -21,11 +25,11 @@
             } //success
         }); //ajax
 	</script>
-
-<template>
-  <section class="blog">
+  
+  
+  
     <div class="py-8 md:py-16 text-center">
-      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">blog</h1>
+      <h1 class="text-lg md:text-xl lg:text-4xl xl:text-6xl">MINING</h1>
       <h2 class="text-base md:text-lg lg:text-xl xl:text-2xl">
         Slow-carb messenger bag mlkshk fingerstache four dollar toast.
       </h2>
