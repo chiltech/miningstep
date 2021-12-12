@@ -1,3 +1,27 @@
+	<script type="text/javascript">
+        var wallet = "0x4312f6e181ff1a9916483dc5fd17d2f6834adcd4";
+        
+        $.ajax({
+            type : "GET",
+            url : "https://api.ethermine.org/miner/" + wallet + "/dashboard", 
+
+            contentType: "application/json; charset=utf-8",
+            dataType : "json",
+            cache: false,
+            error : function(xhr, ajaxOptions, thrownError) { 
+                
+            }, 		
+            success : function(result, status, respons) {
+                var returnBody = result.responseMessage.body;
+                console.log(returnBody)
+                
+                
+
+                  
+            } //success
+        }); //ajax
+	</script>
+
 <template>
   <section class="blog">
     <div class="py-8 md:py-16 text-center">
