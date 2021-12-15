@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+/* Graph */
+@keyframes p-0{from{width:0}to{width:0%}}
+@keyframes p-1{from{width:0}to{width:1%}}
+@keyframes p-2{from{width:0}to{width:2%}}
+@keyframes p-3{from{width:0}to{width:3%}}
+@keyframes p-4{from{width:0}to{width:4%}}
+@keyframes p-5{from{width:0}to{width:5%}}
+@keyframes p-6{from{width:0}to{width:6%}}
+@keyframes p-7{from{width:0}to{width:7%}}
+@keyframes p-8{from{width:0}to{width:8%}}
+@keyframes p-9{from{width:0}to{width:9%}}
+@keyframes p-10{from{width:0}to{width:10%}}
+@keyframes p-11{from{width:0}to{width:11%}}
+@keyframes p-12{from{width:0}to{width:12%}}
+@keyframes p-13{from{width:0}to{width:13%}}
+@keyframes p-14{from{width:0}to{width:14%}}
+@keyframes p-15{from{width:0}to{width:15%}}
+@keyframes p-16{from{width:0}to{width:16%}}
+@keyframes p-17{from{width:0}to{width:17%}}
+@keyframes p-18{from{width:0}to{width:18%}}
+@keyframes p-19{from{width:0}to{width:19%}}
+@keyframes p-20{from{width:0}to{width:20%}}
+@keyframes p-21{from{width:0}to{width:21%}}
+@keyframes p-22{from{width:0}to{width:22%}}
+@keyframes p-23{from{width:0}to{width:23%}}
+@keyframes p-24{from{width:0}to{width:24%}}
+@keyframes p-25{from{width:0}to{width:25%}}
+@keyframes p-26{from{width:0}to{width:26%}}
+@keyframes p-27{from{width:0}to{width:27%}}
+@keyframes p-28{from{width:0}to{width:28%}}
+@keyframes p-29{from{width:0}to{width:29%}}
+@keyframes p-30{from{width:0}to{width:30%}}
+@keyframes p-31{from{width:0}to{width:31%}}
+@keyframes p-32{from{width:0}to{width:32%}}
+@keyframes p-33{from{width:0}to{width:33%}}
+@keyframes p-34{from{width:0}to{width:34%}}
+@keyframes p-35{from{width:0}to{width:35%}}
+@keyframes p-36{from{width:0}to{width:36%}}
+@keyframes p-37{from{width:0}to{width:37%}}
+@keyframes p-38{from{width:0}to{width:38%}}
+@keyframes p-39{from{width:0}to{width:39%}}
+@keyframes p-40{from{width:0}to{width:40%}}
+@keyframes p-41{from{width:0}to{width:41%}}
+@keyframes p-42{from{width:0}to{width:42%}}
+@keyframes p-43{from{width:0}to{width:43%}}
+@keyframes p-44{from{width:0}to{width:44%}}
+@keyframes p-45{from{width:0}to{width:45%}}
+@keyframes p-46{from{width:0}to{width:46%}}
+@keyframes p-47{from{width:0}to{width:47%}}
+@keyframes p-48{from{width:0}to{width:48%}}
+@keyframes p-49{from{width:0}to{width:49%}}
+@keyframes p-50{from{width:0}to{width:50%}}
+@keyframes p-51{from{width:0}to{width:51%}}
+@keyframes p-52{from{width:0}to{width:52%}}
+@keyframes p-53{from{width:0}to{width:53%}}
+@keyframes p-54{from{width:0}to{width:54%}}
+@keyframes p-55{from{width:0}to{width:55%}}
+@keyframes p-56{from{width:0}to{width:56%}}
+@keyframes p-57{from{width:0}to{width:57%}}
+@keyframes p-58{from{width:0}to{width:58%}}
+@keyframes p-59{from{width:0}to{width:59%}}
+@keyframes p-60{from{width:0}to{width:60%}}
+@keyframes p-61{from{width:0}to{width:61%}}
+@keyframes p-62{from{width:0}to{width:62%}}
+@keyframes p-63{from{width:0}to{width:63%}}
+@keyframes p-64{from{width:0}to{width:64%}}
+@keyframes p-65{from{width:0}to{width:65%}}
+@keyframes p-66{from{width:0}to{width:66%}}
+@keyframes p-67{from{width:0}to{width:67%}}
+@keyframes p-68{from{width:0}to{width:68%}}
+@keyframes p-69{from{width:0}to{width:69%}}
+@keyframes p-70{from{width:0}to{width:70%}}
+@keyframes p-71{from{width:0}to{width:71%}}
+@keyframes p-72{from{width:0}to{width:72%}}
+@keyframes p-73{from{width:0}to{width:73%}}
+@keyframes p-74{from{width:0}to{width:74%}}
+@keyframes p-75{from{width:0}to{width:75%}}
+@keyframes p-76{from{width:0}to{width:76%}}
+@keyframes p-77{from{width:0}to{width:77%}}
+@keyframes p-78{from{width:0}to{width:78%}}
+@keyframes p-79{from{width:0}to{width:79%}}
+@keyframes p-80{from{width:0}to{width:80%}}
+@keyframes p-81{from{width:0}to{width:81%}}
+@keyframes p-82{from{width:0}to{width:82%}}
+@keyframes p-83{from{width:0}to{width:83%}}
+@keyframes p-84{from{width:0}to{width:84%}}
+@keyframes p-85{from{width:0}to{width:85%}}
+@keyframes p-86{from{width:0}to{width:86%}}
+@keyframes p-87{from{width:0}to{width:87%}}
+@keyframes p-88{from{width:0}to{width:88%}}
+@keyframes p-89{from{width:0}to{width:89%}}
+@keyframes p-90{from{width:0}to{width:90%}}
+@keyframes p-91{from{width:0}to{width:91%}}
+@keyframes p-92{from{width:0}to{width:92%}}
+@keyframes p-93{from{width:0}to{width:93%}}
+@keyframes p-94{from{width:0}to{width:94%}}
+@keyframes p-95{from{width:0}to{width:95%}}
+@keyframes p-96{from{width:0}to{width:96%}}
+@keyframes p-97{from{width:0}to{width:97%}}
+@keyframes p-98{from{width:0}to{width:98%}}
+@keyframes p-99{from{width:0}to{width:99%}}
+@keyframes p-100{from{width:0}to{width:100%}}
+
+li.p-0{width:0%;animation:p-0 .1s}
+li.p-1{width:1%;animation:p-1 .1s}
+li.p-2{width:2%;animation:p-2 .1s}
+li.p-3{width:3%;animation:p-3 .1s}
+li.p-4{width:4%;animation:p-4 .1s}
+li.p-5{width:5%;animation:p-5 .1s}
+li.p-6{width:6%;animation:p-6 .1s}
+li.p-7{width:7%;animation:p-7 .1s}
+li.p-8{width:8%;animation:p-8 .1s}
+li.p-9{width:9%;animation:p-9 .1s}
+li.p-10{width:10%;animation:p-10 .2s}
+li.p-11{width:11%;animation:p-11 .2s}
+li.p-12{width:12%;animation:p-12 .2s}
+li.p-13{width:13%;animation:p-13 .2s}
+li.p-14{width:14%;animation:p-14 .2s}
+li.p-15{width:15%;animation:p-15 .2s}
+li.p-16{width:16%;animation:p-16 .2s}
+li.p-17{width:17%;animation:p-17 .2s}
+li.p-18{width:18%;animation:p-18 .2s}
+li.p-19{width:19%;animation:p-19 .2s}
+li.p-20{width:20%;animation:p-20 .3s}
+li.p-21{width:21%;animation:p-21 .3s}
+li.p-22{width:22%;animation:p-22 .3s}
+li.p-23{width:23%;animation:p-23 .3s}
+li.p-24{width:24%;animation:p-24 .3s}
+li.p-25{width:25%;animation:p-25 .3s}
+li.p-26{width:26%;animation:p-26 .3s}
+li.p-27{width:27%;animation:p-27 .3s}
+li.p-28{width:28%;animation:p-28 .3s}
+li.p-29{width:29%;animation:p-29 .3s}
+li.p-30{width:30%;animation:p-30 .4s}
+li.p-31{width:31%;animation:p-31 .4s}
+li.p-32{width:32%;animation:p-32 .4s}
+li.p-33{width:33%;animation:p-33 .4s}
+li.p-34{width:34%;animation:p-34 .4s}
+li.p-35{width:35%;animation:p-35 .4s}
+li.p-36{width:36%;animation:p-36 .4s}
+li.p-37{width:37%;animation:p-37 .4s}
+li.p-38{width:38%;animation:p-38 .4s}
+li.p-39{width:39%;animation:p-39 .4s}
+li.p-40{width:40%;animation:p-40 .5s}
+li.p-41{width:41%;animation:p-41 .5s}
+li.p-42{width:42%;animation:p-42 .5s}
+li.p-43{width:43%;animation:p-43 .5s}
+li.p-44{width:44%;animation:p-44 .5s}
+li.p-45{width:45%;animation:p-45 .5s}
+li.p-46{width:46%;animation:p-46 .5s}
+li.p-47{width:47%;animation:p-47 .5s}
+li.p-48{width:48%;animation:p-48 .5s}
+li.p-49{width:49%;animation:p-49 .5s}
+li.p-50{width:50%;animation:p-50 .6s}
+li.p-51{width:51%;animation:p-51 .6s}
+li.p-52{width:52%;animation:p-52 .6s}
+li.p-53{width:53%;animation:p-53 .6s}
+li.p-54{width:54%;animation:p-54 .6s}
+li.p-55{width:55%;animation:p-55 .6s}
+li.p-56{width:56%;animation:p-56 .6s}
+li.p-57{width:57%;animation:p-57 .6s}
+li.p-58{width:58%;animation:p-58 .6s}
+li.p-59{width:59%;animation:p-59 .6s}
+li.p-60{width:60%;animation:p-60 .7s}
+li.p-61{width:61%;animation:p-61 .7s}
+li.p-62{width:62%;animation:p-62 .7s}
+li.p-63{width:63%;animation:p-63 .7s}
+li.p-64{width:64%;animation:p-64 .7s}
+li.p-65{width:65%;animation:p-65 .7s}
+li.p-66{width:66%;animation:p-66 .7s}
+li.p-67{width:67%;animation:p-67 .7s}
+li.p-68{width:68%;animation:p-68 .7s}
+li.p-69{width:69%;animation:p-69 .7s}
+li.p-70{width:70%;animation:p-70 .8s}
+li.p-71{width:71%;animation:p-71 .8s}
+li.p-72{width:72%;animation:p-72 .8s}
+li.p-73{width:73%;animation:p-73 .8s}
+li.p-74{width:74%;animation:p-74 .8s}
+li.p-75{width:75%;animation:p-75 .8s}
+li.p-76{width:76%;animation:p-76 .8s}
+li.p-77{width:77%;animation:p-77 .8s}
+li.p-78{width:78%;animation:p-78 .8s}
+li.p-79{width:79%;animation:p-79 .8s}
+li.p-80{width:80%;animation:p-80 .9s}
+li.p-81{width:81%;animation:p-81 .9s}
+li.p-82{width:82%;animation:p-82 .9s}
+li.p-83{width:83%;animation:p-83 .9s}
+li.p-84{width:84%;animation:p-84 .9s}
+li.p-85{width:85%;animation:p-85 .9s}
+li.p-86{width:86%;animation:p-86 .9s}
+li.p-87{width:87%;animation:p-87 .9s}
+li.p-88{width:88%;animation:p-88 .9s}
+li.p-89{width:89%;animation:p-89 .9s}
+li.p-90{width:90%;animation:p-90 1s}
+li.p-91{width:91%;animation:p-91 1s}
+li.p-92{width:92%;animation:p-92 1s}
+li.p-93{width:93%;animation:p-93 1s}
+li.p-94{width:94%;animation:p-94 1s}
+li.p-95{width:95%;animation:p-95 1s}
+li.p-96{width:96%;animation:p-96 1s}
+li.p-97{width:97%;animation:p-97 1s}
+li.p-98{width:98%;animation:p-98 1s}
+li.p-99{width:99%;animation:p-99 1s}
+li.p-100{width:100%;animation:p-100 1s}
+
+li.p-0::before{content:"0%"}
+li.p-1::before{content:"1%"}
+li.p-2::before{content:"2%"}
+li.p-3::before{content:"3%"}
+li.p-4::before{content:"4%"}
+li.p-5::before{content:"5%"}
+li.p-6::before{content:"6%"}
+li.p-7::before{content:"7%"}
+li.p-8::before{content:"8%"}
+li.p-9::before{content:"9%"}
+li.p-10::before{content:"10%"}
+li.p-11::before{content:"11%"}
+li.p-12::before{content:"12%"}
+li.p-13::before{content:"13%"}
+li.p-14::before{content:"14%"}
+li.p-15::before{content:"15%"}
+li.p-16::before{content:"16%"}
+li.p-17::before{content:"17%"}
+li.p-18::before{content:"18%"}
+li.p-19::before{content:"19%"}
+li.p-20::before{content:"20%"}
+li.p-21::before{content:"21%"}
+li.p-22::before{content:"22%"}
+li.p-23::before{content:"23%"}
+li.p-24::before{content:"24%"}
+li.p-25::before{content:"25%"}
+li.p-26::before{content:"26%"}
+li.p-27::before{content:"27%"}
+li.p-28::before{content:"28%"}
+li.p-29::before{content:"29%"}
+li.p-30::before{content:"30%"}
+li.p-31::before{content:"31%"}
+li.p-32::before{content:"32%"}
+li.p-33::before{content:"33%"}
+li.p-34::before{content:"34%"}
+li.p-35::before{content:"35%"}
+li.p-36::before{content:"36%"}
+li.p-37::before{content:"37%"}
+li.p-38::before{content:"38%"}
+li.p-39::before{content:"39%"}
+li.p-40::before{content:"40%"}
+li.p-41::before{content:"41%"}
+li.p-42::before{content:"42%"}
+li.p-43::before{content:"43%"}
+li.p-44::before{content:"44%"}
+li.p-45::before{content:"45%"}
+li.p-46::before{content:"46%"}
+li.p-47::before{content:"47%"}
+li.p-48::before{content:"48%"}
+li.p-49::before{content:"49%"}
+li.p-50::before{content:"50%"}
+li.p-51::before{content:"51%"}
+li.p-52::before{content:"52%"}
+li.p-53::before{content:"53%"}
+li.p-54::before{content:"54%"}
+li.p-55::before{content:"55%"}
+li.p-56::before{content:"56%"}
+li.p-57::before{content:"57%"}
+li.p-58::before{content:"58%"}
+li.p-59::before{content:"59%"}
+li.p-60::before{content:"60%"}
+li.p-61::before{content:"61%"}
+li.p-62::before{content:"62%"}
+li.p-63::before{content:"63%"}
+li.p-64::before{content:"64%"}
+li.p-65::before{content:"65%"}
+li.p-66::before{content:"66%"}
+li.p-67::before{content:"67%"}
+li.p-68::before{content:"68%"}
+li.p-69::before{content:"69%"}
+li.p-70::before{content:"70%"}
+li.p-71::before{content:"71%"}
+li.p-72::before{content:"72%"}
+li.p-73::before{content:"73%"}
+li.p-74::before{content:"74%"}
+li.p-75::before{content:"75%"}
+li.p-76::before{content:"76%"}
+li.p-77::before{content:"77%"}
+li.p-78::before{content:"78%"}
+li.p-79::before{content:"79%"}
+li.p-80::before{content:"80%"}
+li.p-81::before{content:"81%"}
+li.p-82::before{content:"82%"}
+li.p-83::before{content:"83%"}
+li.p-84::before{content:"84%"}
+li.p-85::before{content:"85%"}
+li.p-86::before{content:"86%"}
+li.p-87::before{content:"87%"}
+li.p-88::before{content:"88%"}
+li.p-89::before{content:"89%"}
+li.p-90::before{content:"90%"}
+li.p-91::before{content:"91%"}
+li.p-92::before{content:"92%"}
+li.p-93::before{content:"93%"}
+li.p-94::before{content:"94%"}
+li.p-95::before{content:"95%"}
+li.p-96::before{content:"96%"}
+li.p-97::before{content:"97%"}
+li.p-98::before{content:"98%"}
+li.p-99::before{content:"99%"}
+li.p-100::before{content:"100%"}
+
+.percent-indicator .per-0::before{content:'0%'}
+.percent-indicator .per-1::before{content:'1%'}
+.percent-indicator .per-2::before{content:'2%'}
+.percent-indicator .per-3::before{content:'3%'}
+.percent-indicator .per-4::before{content:'4%'}
+.percent-indicator .per-5::before{content:'5%'}
+.percent-indicator .per-6::before{content:'6%'}
+.percent-indicator .per-7::before{content:'7%'}
+.percent-indicator .per-8::before{content:'8%'}
+.percent-indicator .per-9::before{content:'9%'}
+.percent-indicator .per-10::before{content:'10%'}
+.percent-indicator .per-11::before{content:'11%'}
+.percent-indicator .per-12::before{content:'12%'}
+.percent-indicator .per-13::before{content:'13%'}
+.percent-indicator .per-14::before{content:'14%'}
+.percent-indicator .per-15::before{content:'15%'}
+.percent-indicator .per-16::before{content:'16%'}
+.percent-indicator .per-17::before{content:'17%'}
+.percent-indicator .per-18::before{content:'18%'}
+.percent-indicator .per-19::before{content:'19%'}
+.percent-indicator .per-20::before{content:'20%'}
+.percent-indicator .per-21::before{content:'21%'}
+.percent-indicator .per-22::before{content:'22%'}
+.percent-indicator .per-23::before{content:'23%'}
+.percent-indicator .per-24::before{content:'24%'}
+.percent-indicator .per-25::before{content:'25%'}
+.percent-indicator .per-26::before{content:'26%'}
+.percent-indicator .per-27::before{content:'27%'}
+.percent-indicator .per-28::before{content:'28%'}
+.percent-indicator .per-29::before{content:'29%'}
+.percent-indicator .per-30::before{content:'30%'}
+.percent-indicator .per-31::before{content:'31%'}
+.percent-indicator .per-32::before{content:'32%'}
+.percent-indicator .per-33::before{content:'33%'}
+.percent-indicator .per-34::before{content:'34%'}
+.percent-indicator .per-35::before{content:'35%'}
+.percent-indicator .per-36::before{content:'36%'}
+.percent-indicator .per-37::before{content:'37%'}
+.percent-indicator .per-38::before{content:'38%'}
+.percent-indicator .per-39::before{content:'39%'}
+.percent-indicator .per-40::before{content:'40%'}
+.percent-indicator .per-41::before{content:'41%'}
+.percent-indicator .per-42::before{content:'42%'}
+.percent-indicator .per-43::before{content:'43%'}
+.percent-indicator .per-44::before{content:'44%'}
+.percent-indicator .per-45::before{content:'45%'}
+.percent-indicator .per-46::before{content:'46%'}
+.percent-indicator .per-47::before{content:'47%'}
+.percent-indicator .per-48::before{content:'48%'}
+.percent-indicator .per-49::before{content:'49%'}
+.percent-indicator .per-50::before{content:'50%'}
+.percent-indicator .per-51::before{content:'51%'}
+.percent-indicator .per-52::before{content:'52%'}
+.percent-indicator .per-53::before{content:'53%'}
+.percent-indicator .per-54::before{content:'54%'}
+.percent-indicator .per-55::before{content:'55%'}
+.percent-indicator .per-56::before{content:'56%'}
+.percent-indicator .per-57::before{content:'57%'}
+.percent-indicator .per-58::before{content:'58%'}
+.percent-indicator .per-59::before{content:'59%'}
+.percent-indicator .per-60::before{content:'60%'}
+.percent-indicator .per-61::before{content:'61%'}
+.percent-indicator .per-62::before{content:'62%'}
+.percent-indicator .per-63::before{content:'63%'}
+.percent-indicator .per-64::before{content:'64%'}
+.percent-indicator .per-65::before{content:'65%'}
+.percent-indicator .per-66::before{content:'66%'}
+.percent-indicator .per-67::before{content:'67%'}
+.percent-indicator .per-68::before{content:'68%'}
+.percent-indicator .per-69::before{content:'69%'}
+.percent-indicator .per-70::before{content:'70%'}
+.percent-indicator .per-71::before{content:'71%'}
+.percent-indicator .per-72::before{content:'72%'}
+.percent-indicator .per-73::before{content:'73%'}
+.percent-indicator .per-74::before{content:'74%'}
+.percent-indicator .per-75::before{content:'75%'}
+.percent-indicator .per-76::before{content:'76%'}
+.percent-indicator .per-77::before{content:'77%'}
+.percent-indicator .per-78::before{content:'78%'}
+.percent-indicator .per-79::before{content:'79%'}
+.percent-indicator .per-80::before{content:'80%'}
+.percent-indicator .per-81::before{content:'81%'}
+.percent-indicator .per-82::before{content:'82%'}
+.percent-indicator .per-83::before{content:'83%'}
+.percent-indicator .per-84::before{content:'84%'}
+.percent-indicator .per-85::before{content:'85%'}
+.percent-indicator .per-86::before{content:'86%'}
+.percent-indicator .per-87::before{content:'87%'}
+.percent-indicator .per-88::before{content:'88%'}
+.percent-indicator .per-89::before{content:'89%'}
+.percent-indicator .per-90::before{content:'90%'}
+.percent-indicator .per-91::before{content:'91%'}
+.percent-indicator .per-92::before{content:'92%'}
+.percent-indicator .per-93::before{content:'93%'}
+.percent-indicator .per-94::before{content:'94%'}
+.percent-indicator .per-95::before{content:'95%'}
+.percent-indicator .per-96::before{content:'96%'}
+.percent-indicator .per-97::before{content:'97%'}
+.percent-indicator .per-98::before{content:'98%'}
+.percent-indicator .per-99::before{content:'99%'}
+.percent-indicator .per-100::before{content:'100%'}
+
+.graph-wrapper {position: relative; padding:0 !important; margin:auto}
+.graph {position: relative; padding:0 !important; list-style:none; z-index: 2; border-radius:6px; overflow:hidden; background:#afbbd0;}
+.graph li {margin:0 !important; padding:0.2em 0 !important; background:#f95e54; color:#fff; text-align: left; border-radius:6px;}
+.graph li::before,
+.graph li:hover::after {display:none}
